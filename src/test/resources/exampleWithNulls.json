@@ -1,0 +1,108 @@
+{
+  "form": {
+    "id": "appointment_form",
+    "header": {
+      "type": "title",
+      "title": "Записаться",
+      "options": {
+        "title": null,
+        "fullscreen": null,
+        "type": null,
+        "item_type": null,
+        "columns_count": null,
+        "search_enabled": null,
+        "closeable": true,
+        "media_type": null,
+        "choice_type": null,
+        "text_size": null,
+        "max_count": null,
+        "text_style": null,
+        "text_color": null,
+        "width": null,
+        "height": null,
+        "shape": null,
+        "indent_inner": null,
+        "indent_outer": null
+      },
+      "form_action": null
+    },
+    "content": [
+      {
+        "id": "doctor",
+        "type": "catalog",
+        "title": "Доктор",
+        "placeholder": "placeholder",
+        "default_value": null,
+        "validations_rules": [
+          {
+            "type": "required",
+            "value": "true",
+            "error": "Поле не должно быть пустым"
+          }
+        ],
+        "catalog": {
+          "options": {
+            "title": "Выберите доктора",
+            "fullscreen": null,
+            "type": null,
+            "item_type": null,
+            "columns_count": null,
+            "search_enabled": false,
+            "closeable": null,
+            "media_type": null,
+            "choice_type": null,
+            "text_size": null,
+            "max_count": null,
+            "text_style": null,
+            "text_color": null,
+            "width": null,
+            "height": null,
+            "shape": null,
+            "indent_inner": null,
+            "indent_outer": null
+          },
+          "items": [
+            {
+              "id": "doctor_1",
+              "title": "Терапевт",
+              "photo_url": "http://www.wwwwww.kz/userfiles/posts/2273/db05f32d5acea62bfe1ac242d9575cb2_big.jpg",
+              "description": "Катя нормальный врач, отвечаю!",
+              "file_metadata": null
+            },
+            {
+              "id": "doctor_2",
+              "title": "Окулист",
+              "photo_url": "http://wwwwww.kz/images/Sulejmrnov.jpg",
+              "description": "При возникновении боли в глазах",
+              "file_metadata": null
+            }
+          ]
+        }
+      },
+      {
+        "id": "date",
+        "type": "date_time",
+        "title": "Дата",
+        "placeholder": "Выберите дату",
+        "validations_rules": [
+          {
+            "type": "required",
+            "value": "true",
+            "error": "Поле не должно быть пустым"
+          }
+        ]
+      },
+      {
+        "id": "submit",
+        "type": "submit",
+        "title": "Записаться",
+        "form_action": {
+          "action": "send_message",
+          "data_template": "Записаться к {appointment_form.doctor} на {appointment_form.date}"
+        }
+      }
+    ],
+    "options": null,
+    "bottom_bar": null
+  }
+}

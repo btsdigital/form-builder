@@ -1,0 +1,1271 @@
+[
+  {
+    "type": "card_container",
+    "options": {
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "width": 62,
+          "flex_options": {
+            "flex_direction": "column",
+            "align_items": "start"
+          }
+        },
+        "content": [
+          {
+            "type": "image",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "1Xlo1B3MWn0JgtEFrcvo4rF4Ief4GPI",
+              "filename": "googleDrive"
+            },
+            "options": {
+              "width": 62,
+              "height": 33
+            }
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "width": 62,
+              "flex_options": {
+                "flex_direction": "row",
+                "justify_content": "between"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "ЖК «Багыстан»",
+                "options": {
+                  "text_size": "H3",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center"
+                  },
+                  "indent_outer": {
+                    "left": 16
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1mRdg05UIlqrpxNEuLyFKHawp9XIEreo",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 17,
+                  "height": 9,
+                  "indent_outer": {
+                    "right": 16
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider",
+            "options": {
+              "indent_outer": {
+                "left": 16,
+                "right": 16
+              }
+            }
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "width": 62,
+              "flex_options": {
+                "flex_direction": "row"
+              },
+              "indent_outer": {
+                "top": 8,
+                "bottom": 12
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "1-к квартира, 62 м²",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": 1
+                  },
+                  "indent_outer": {
+                    "left": 16
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "9 170 100 Т",
+                "options": {
+                  "text_size": "H3",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": 1
+                  },
+                  "alignment": "right",
+                  "indent_outer": {
+                    "right": 16
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "card_container",
+    "options": {
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "width": 62,
+          "flex_options": {
+            "flex_direction": "column",
+            "align_items": "start"
+          }
+        },
+        "content": [
+          {
+            "type": "custom_container",
+            "options": {
+              "width": 62,
+              "height": 16,
+              "flex_options": {
+                "flex_direction": "column",
+                "justify_content": "center"
+              },
+              "background_color": "#2B296D"
+            },
+            "content": [
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1lKOhAEVzT8Q2gpzVtwmjoDXR_Sd6O51",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 37,
+                  "height": 6,
+                  "flex_options": {
+                    "align_self": "center"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Евразийский банк",
+            "options": {
+              "text_size": "H3",
+              "text_style": "bold",
+              "indent_outer": {
+                "left": 12,
+                "top": 12,
+                "right": 12
+              }
+            }
+          },
+          {
+            "type": "text",
+            "title": "www.eubank.kz",
+            "options": {
+              "text_size": "H4",
+              "text_color": "#0075EB",
+              "alignment": "right",
+              "indent_outer": {
+                "left": 12,
+                "top": 2,
+                "right": 12
+              }
+            },
+            "form_action": {
+              "action": "open_url",
+              "data_template": "https://eubank.kz"
+            }
+          },
+          {
+            "type": "divider",
+            "options": {
+              "indent_outer": {
+                "left": 12,
+                "top": 14,
+                "right": 12
+              }
+            }
+          },
+          {
+            "type": "text",
+            "title": "Контактный телефон:",
+            "options": {
+              "text_color": "#A9ADB1",
+              "text_size": "H4",
+              "indent_outer": {
+                "left": 12,
+                "top": 8,
+                "right": 12
+              }
+            }
+          },
+          {
+            "type": "text",
+            "title": "+7 (727) 332-77-22",
+            "options": {
+              "text_size": "H3",
+              "text_style": "bold",
+              "indent_outer": {
+                "left": 12,
+                "top": 4,
+                "right": 12,
+                "bottom": 12
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "card_container",
+    "options": {
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "indent_inner": {
+            "left": 16,
+            "top": 16,
+            "right": 16,
+            "bottom": 8
+          },
+          "flex_options": {
+            "flex_direction": "column"
+          }
+        },
+        "content": [
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "start",
+                "justify_content": "between"
+              }
+            },
+            "content": [
+              {
+                "type": "custom_container",
+                "options": {
+                  "flex_options": {
+                    "flex_direction": "column",
+                    "align_items": "start"
+                  }
+                },
+                "content": [
+                  {
+                    "type": "custom_container",
+                    "options": {
+                      "flex_options": {
+                        "flex_direction": "row",
+                        "align_items": "start"
+                      }
+                    },
+                    "content": [
+                      {
+                        "type": "image",
+                        "file_metadata": {
+                          "file_type": "image",
+                          "file_id": "1NolXS6m828L7WJw8MNCHNodOcCoa2aW",
+                          "filename": "googleDrive"
+                        },
+                        "options": {
+                          "width": 8,
+                          "height": 8
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "title": "EUR",
+                        "options": {
+                          "text_size": "H4",
+                          "indent_outer": {
+                            "left": 2
+                          },
+                          "flex_options": {
+                            "align_self": "center"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "title": "10000",
+                    "options": {
+                      "text_size": "H1",
+                      "text_style": "bold",
+                      "indent_outer": {
+                        "top": 4
+                      }
+                    }
+                  },
+                  {
+                    "type": "custom_container",
+                    "options": {
+                      "flex_options": {
+                        "flex_direction": "row",
+                        "align_items": "start",
+                        "justify_content": "between"
+                      },
+                      "indent_outer": {
+                        "top": 16
+                      }
+                    },
+                    "content": [
+                      {
+                        "type": "image",
+                        "file_metadata": {
+                          "file_type": "image",
+                          "file_id": "1yaEKgj2WyK6qQ9hRHlKkDAlijOZ1Ovu",
+                          "filename": "googleDrive"
+                        },
+                        "options": {
+                          "width": 8,
+                          "height": 8
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "title": "USD",
+                        "options": {
+                          "text_size": "H4",
+                          "indent_outer": {
+                            "left": 4
+                          },
+                          "flex_options": {
+                            "align_self": "center"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "title": "11288.0033",
+                    "options": {
+                      "text_size": "H1",
+                      "text_style": "bold",
+                      "indent_outer": {
+                        "top": 4
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1JX-FpVSpKM7z6FhGShecGXX1bA-6QBn",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "1 USD = 0.8859 EUR",
+            "options": {
+              "text_color": "#979797",
+              "text_size": "H4",
+              "indent_outer": {
+                "top": 14
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "card_container",
+    "options": {
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 8
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "width": 44,
+          "height": 28,
+          "indent_inner": {
+            "left": 12,
+            "top": 8,
+            "right": 12,
+            "bottom": 12
+          },
+          "flex_options": {
+            "flex_direction": "column",
+            "align_items": "start",
+            "justify_content": "between"
+          }
+        },
+        "file_metadata": {
+          "file_type": "image",
+          "file_id": "1jtdGmanvQm50KoQtafdmFoMzxZkrJjY",
+          "filename": "googleDrive"
+        },
+        "content": [
+          {
+            "type": "text",
+            "title": "28",
+            "options": {
+              "text_size": "H2",
+              "text_color": "#B2FFFFFF",
+              "flex_options": {
+                "align_self": "end"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "title": "Meal",
+            "options": {
+              "text_size": "H2",
+              "text_color": "#FFFFFF"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "card_container",
+    "options": {
+      "indent_inner": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 2
+      },
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 16
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "flex_options": {
+            "flex_direction": "column"
+          },
+          "width": 62
+        },
+        "content": [
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row"
+              }
+            },
+            "content": [
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1v2k0TT8fDClPlPfdV7Y89XqpqNGbJMl",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 4,
+                  "height": 4
+                }
+              },
+              {
+                "type": "text",
+                "title": "Нур-Султан (Астана)",
+                "options": {
+                  "text_size": "H4",
+                  "indent_outer": {
+                    "left": 4
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "16-23 сентября",
+            "options": {
+              "text_size": "H2",
+              "text_style": "bold",
+              "indent_outer": {
+                "top": 8
+              }
+            }
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              },
+              "indent_outer": {
+                "top": 14
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Понедельник",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1i1PeKbGYW80NuPbs8euecpk7REpOm6U",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+23°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+15°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Вторник",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1_ctxvGTrhV8go_fKsts4l8otb5yJKQR",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+21°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+9°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Среда",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1_ctxvGTrhV8go_fKsts4l8otb5yJKQR",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+25°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+13°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Четверг",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "16GX7dBsnjVRLCO-tPSmK04qwgE6lpJK",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 9,
+                  "height": 7,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+19°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+10°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Пятница",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1_ctxvGTrhV8go_fKsts4l8otb5yJKQR",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+22°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+9°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Суббота",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1_ctxvGTrhV8go_fKsts4l8otb5yJKQR",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+25°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+9°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "align_items": "baseline",
+                "flex_wrap": "wrap"
+              }
+            },
+            "content": [
+              {
+                "type": "text",
+                "title": "Воскресенье",
+                "options": {
+                  "text_size": "H4",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.42"
+                  }
+                }
+              },
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1i1PeKbGYW80NuPbs8euecpk7REpOm6U",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 8,
+                  "height": 8,
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.16"
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "title": "+25°",
+                "options": {
+                  "text_size": "H4",
+                  "text_style": "bold",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.24"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              },
+              {
+                "type": "text",
+                "title": "+9°",
+                "options": {
+                  "text_size": "H4",
+                  "text_color": "#A9ADB1",
+                  "flex_options": {
+                    "align_self": "center",
+                    "flex_grow": "0.18"
+                  },
+                  "alignment": "center_horizontal"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "card_container",
+    "options": {
+      "indent_outer": {
+        "left": 16,
+        "top": 8,
+        "right": 16,
+        "bottom": 16
+      },
+      "background": "card"
+    },
+    "content": [
+      {
+        "type": "custom_container",
+        "options": {
+          "flex_options": {
+            "flex_direction": "column"
+          },
+          "width": 60
+        },
+        "content": [
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row"
+              },
+              "indent_outer": {
+                "left": 16,
+                "top": 8,
+                "right": 16
+              }
+            },
+            "content": [
+              {
+                "type": "image",
+                "file_metadata": {
+                  "file_type": "image",
+                  "file_id": "1v2k0TT8fDClPlPfdV7Y89XqpqNGbJMl",
+                  "filename": "googleDrive"
+                },
+                "options": {
+                  "width": 4,
+                  "height": 4
+                }
+              },
+              {
+                "type": "text",
+                "title": "Нур-Султан (Астана)",
+                "options": {
+                  "text_size": "H4",
+                  "indent_outer": {
+                    "left": 4
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Сегодня",
+            "options": {
+              "text_size": "H1",
+              "text_style": "bold",
+              "indent_outer": {
+                "left": 16,
+                "top": 2,
+                "right": 16
+              }
+            }
+          },
+          {
+            "type": "text",
+            "title": "16 сентября, пн, 13:46",
+            "options": {
+              "text_size": "H4",
+              "indent_outer": {
+                "left": 16,
+                "top": 2,
+                "right": 16
+              }
+            }
+          },
+          {
+            "type": "custom_container",
+            "options": {
+              "flex_options": {
+                "flex_direction": "row",
+                "justify_content": "evenly"
+              },
+              "indent_outer": {
+                "top": 14
+              }
+            },
+            "content": [
+              {
+                "type": "custom_container",
+                "options": {
+                  "flex_options": {
+                    "flex_direction": "column",
+                    "justify_content": "center"
+                  }
+                },
+                "content": [
+                  {
+                    "type": "image",
+                    "file_metadata": {
+                      "file_type": "image",
+                      "file_id": "1i1PeKbGYW80NuPbs8euecpk7REpOm6U",
+                      "filename": "googleDrive"
+                    },
+                    "options": {
+                      "width": 10,
+                      "height": 10,
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "title": "+23°C",
+                    "options": {
+                      "text_size": "H2",
+                      "text_style": "bold",
+                      "indent_outer": {
+                        "top": 6
+                      },
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "title": "Днем",
+                    "options": {
+                      "text_size": "H4",
+                      "text_style": "bold",
+                      "indent_inner": {
+                        "bottom": 4
+                      },
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "options": {
+                  "divider_type": "vertical"
+                }
+              },
+              {
+                "type": "custom_container",
+                "options": {
+                  "flex_options": {
+                    "flex_direction": "column",
+                    "justify_content": "center"
+                  }
+                },
+                "content": [
+                  {
+                    "type": "image",
+                    "file_metadata": {
+                      "file_type": "image",
+                      "file_id": "1_ctxvGTrhV8go_fKsts4l8otb5yJKQR",
+                      "filename": "googleDrive"
+                    },
+                    "options": {
+                      "width": 10,
+                      "height": 10,
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "title": "+15°C",
+                    "options": {
+                      "text_size": "H2",
+                      "text_style": "bold",
+                      "indent_outer": {
+                        "top": 6
+                      },
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "title": "Ночью",
+                    "options": {
+                      "text_size": "H4",
+                      "text_style": "bold",
+                      "indent_inner": {
+                        "bottom": 4
+                      },
+                      "flex_options": {
+                        "align_self": "center"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Ветер ЮЗ 7 м/сек",
+            "options": {
+              "text_size": "H4",
+              "indent_outer": {
+                "left": 16,
+                "top": 12,
+                "right": 16,
+                "bottom": 16
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "channel_bottom_bar1",
+  "type": "channel_bottom_bar",
+  "content": [
+    {
+      "id": "content_id",
+      "type": "content_type",
+      "title": "УЧАСТВОВАТЬ",
+      "alignment": "right",
+      "form_action": {
+        "action": "submit_form",
+        "data_template": "send_interface_view"
+      }
+    }
+  ]
+}

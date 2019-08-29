@@ -1,0 +1,79 @@
+{
+  "form": {
+    "id": "appointment_form",
+    "header": {
+      "type": "title",
+      "title": "Записаться",
+      "options": {
+        "closeable": true
+      }
+    },
+    "content": [
+      {
+        "id": "doctor",
+        "type": "catalog",
+        "title": "Доктор",
+        "placeholder": "placeholder",
+        "validations_rules": [
+          {
+            "type": "required",
+            "value": "true",
+            "error": "Поле не должно быть пустым"
+          }
+        ],
+        "catalog": {
+          "options": {
+            "title": "Выберите доктора",
+            "search_enabled": false
+          },
+          "items": [
+            {
+              "id": "doctor_1",
+              "title": "Терапевт",
+              "photo_url": "http://www.wwwwww/userfiles/posts/2273/db05f32d5acea62bfe1ac242d9575cb2_big.jpg",
+              "description": "Катя нормальный врач, отвечаю!"
+            },
+            {
+              "id": "doctor_2",
+              "title": "Окулист",
+              "photo_url": "http://wwwwww.kz/images/Sulejmrnov.jpg",
+              "description": "При возникновении боли в глазах"
+            }
+          ]
+        }
+      },
+      {
+        "id": "date",
+        "type": "date_time",
+        "title": "Дата",
+        "placeholder": "Выберите дату",
+        "validations_rules": [
+          {
+            "type": "required",
+            "value": "true",
+            "error": "Поле не должно быть пустым"
+          }
+        ]
+      },
+      {
+        "id": "submit",
+        "type": "submit",
+        "title": "Записаться",
+        "form_action": {
+          "action": "send_message",
+          "data_template": "Записаться к {appointment_form.doctor} на {appointment_form.date}"
+        }
+      },
+      {
+        "id": "input",
+        "type": "input",
+        "title": "Количество, шт.",
+        "placeholder": "Введите количество",
+        "default_state": true,
+        "options": {
+          "input_type": "number"
+        }
+      }
+    ]
+  }
+}
