@@ -6,4 +6,4 @@
 
 ## Лицензия
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/btsdigital/form-builder/blob/master/LICENSE) file for details
+This project is licensed under the [Apache v2.0 License](https://github.com/btsdigital/form-builder/blob/master/LICENSE)
