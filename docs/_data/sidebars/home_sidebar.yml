@@ -1,0 +1,25 @@
+entries:
+- title: Sidebar
+  levels: two
+  folders:
+  - title: Модель
+    output: web
+    folderitems:
+    - title: Catalog
+      url: /Catalog.html
+      output: web
+  - title: Релизы
+    output: web
+    folderitems:
+    - title: 0.0.68
+      url: /0.0.68.html
+      output: web
+  - title: О проекте
+    output: web
+    folderitems:
+      - title: Лицензия
+        url: /licence.html
+        output: web
+      - title: Внести вклад
+        url: /contribution.html
+        output: web
