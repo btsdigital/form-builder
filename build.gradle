@@ -25,8 +25,18 @@ detekt {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = group
+            version = version
+            from components.java
+        }
+    }
 }
