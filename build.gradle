@@ -6,8 +6,8 @@ plugins {
     id 'signing'
 }
 
-group 'kz.btsd.bot'
-ext.moduleName = 'kz.btsd.bot.form-builder'
+group = "kz.btsd.messenger.bot"
+ext.moduleName = 'kz.btsd.form-builder'
 
 version version
 
