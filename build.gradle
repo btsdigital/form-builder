@@ -64,7 +64,7 @@ publishing {
 }
 
 
-def repo = "github.com/btsdigital/bot-sdk"
+def repo = "github.com/btsdigital/form-builder"
 
 if (project.hasProperty("jiraUsername") && project.hasProperty("jiraPass")) {
     publishing {
