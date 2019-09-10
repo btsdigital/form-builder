@@ -4,6 +4,6 @@
 
 ![Form](docs/images/form.png "Form")
 
-## Лицензия
+## Лицензия 
 
 This project is licensed under the [Apache v2.0 License](https://github.com/btsdigital/form-builder/blob/master/LICENSE)
