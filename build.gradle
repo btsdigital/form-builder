@@ -52,7 +52,6 @@ artifacts {
     archives javadocJar
 }
 
-
 def repo = "github.com/btsdigital/form-builder"
 
 if (project.hasProperty("jiraUsername") && project.hasProperty("jiraPass")) {
@@ -101,7 +100,6 @@ if (project.hasProperty("jiraUsername") && project.hasProperty("jiraPass")) {
             }
         }
     }
-
     signing {
         sign publishing.publications.mavenJava
     }
