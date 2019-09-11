@@ -1,10 +1,13 @@
 plugins {
     id "org.jetbrains.kotlin.jvm" version "1.3.50"
+    id 'java-library'
     id "maven-publish"
     id "io.gitlab.arturbosch.detekt" version "1.0.1"
+    id 'signing'
 }
 
-group 'kz.btsd.bot'
+group = "kz.btsd.messenger.bot"
+
 version version
 
 dependencies {
@@ -31,12 +34,72 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "11"
 }
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = group
-            version = version
-            from components.java
+compileKotlin.destinationDir = compileJava.destinationDir
+
+task sourceJar(type: Jar) {
+    from sourceSets.main.allSource
+    archiveClassifier = 'sources'
+}
+
+task javadocJar(type: Jar) {
+    from javadoc
+    archiveClassifier = "javadoc"
+}
+
+artifacts {
+    archives jar
+    archives sourceJar
+    archives javadocJar
+}
+
+def repo = "github.com/btsdigital/form-builder"
+
+if (project.hasProperty("jiraUsername") && project.hasProperty("jiraPass")) {
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                groupId 'kz.btsd'
+                artifactId 'form-builder'
+                version version
+                from components.java
+                artifact sourceJar
+                artifact javadocJar
+
+                pom {
+                    description = 'form builder for AITU messenger bots'
+                    name = 'AITU bots form builder'
+                    url = repo
+                    licenses {
+                        license {
+                            name = 'Apache License 2.0'
+                            url = "https://$repo/blob/master/LICENSE"
+                            distribution = 'repo'
+                        }
+                    }
+                    scm {
+                        url = "https://$repo"
+                        connection = "scm:git:git://$repo\\.git"
+                    }
+                    developers {
+                        developer {
+                            name = 'btsd bot platform'
+                            organization = "BTSD"
+                        }
+                    }
+                }
+            }
         }
+        repositories {
+            maven {
+                url "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+                credentials {
+                    username jiraUsername
+                    password jiraPass
+                }
+            }
+        }
+    }
+    signing {
+        sign publishing.publications.mavenJava
     }
 }
