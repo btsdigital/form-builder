@@ -3,7 +3,7 @@ version: '3.7'
 services:
   documentation:
     build:
-      context: ""
+      context: .
       dockerfile: Dockerfile
     ports:
       - "4000:4000"
