@@ -6,6 +6,9 @@ permalink: Catalog.html
 toc: true
 folder: model
 ---
+
+![Catalog](images/SimpleCatalogIOS.png "Catalog")
+
 ## Описание
 Элемент на форме, который вызывает backdrop со списком значений для выбора
 
