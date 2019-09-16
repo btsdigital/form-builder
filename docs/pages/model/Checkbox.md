@@ -9,11 +9,11 @@ folder: model
 
 <strong>Дизайн на IOS</strong>
 
-![Checkbox](../../images/checkboxiOS.png "Checkbox")
+![Checkbox](images/checkboxiOS.png "Checkbox")
 
 <strong>Дизайн на Android</strong>
 
-![Checkbox](../../images/CheckboxAndroid.png "Checkbox")
+![Checkbox](images/CheckboxAndroid.png "Checkbox")
 
 ## Описание
 <p>Компонент для выбора пользователем указанного значения. Может использоваться самостоятельно с подписью, так и без подписи в составе наборов компонент.
