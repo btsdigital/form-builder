@@ -7,7 +7,7 @@ toc: true
 folder: model
 ---
 
-![Catalog](images/SimpleCatalogIOS.png "Catalog")
+![Catalog](../../images/SimpleCatalogIOS.png "Catalog")
 
 ## Описание
 Элемент на форме, позволяющий выбирать значение из выпадающего списка.
