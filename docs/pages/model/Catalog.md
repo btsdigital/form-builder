@@ -6,8 +6,13 @@ permalink: Catalog.html
 toc: true
 folder: model
 ---
+<strong>Дизайн на IOS</strong>
 
 ![Catalog](../../images/SimpleCatalogIOS.png "Catalog")
+
+<strong>Дизайн на Android</strong>
+
+![Catalog](../../images/simplecatalogAndroid.png "Catalog")
 
 ## Описание
 Элемент на форме, позволяющий выбирать значение из выпадающего списка.
