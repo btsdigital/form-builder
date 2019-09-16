@@ -8,6 +8,9 @@ entries:
     - title: Catalog
       url: /Catalog.html
       output: web
+    - title: Checkbox
+      url: /Checkbox.html
+      output: web
   - title: Релизы
     output: web
     folderitems:

@@ -6,11 +6,17 @@ permalink: Catalog.html
 toc: true
 folder: model
 ---
+<strong>Дизайн на IOS</strong>
 
-![Catalog](images/SimpleCatalogIOS.png "Catalog")
+![Catalog](../../images/SimpleCatalogIOS.png "Catalog")
+
+<strong>Дизайн на Android</strong>
+
+![Catalog](../../images/simplecatalogAndroid.png "Catalog")
 
 ## Описание
-Элемент на форме, который вызывает backdrop со списком значений для выбора
+<p>Элемент на форме, который вызывает backdrop со списком значений для выбора.
+</p>
 
 | Поле  | Необходимые  | Описание
 |---|:---:|---|
