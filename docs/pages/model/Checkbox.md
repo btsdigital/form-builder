@@ -7,58 +7,51 @@ toc: true
 folder: model
 ---
 
+<strong>Дизайн на IOS</strong>
+
 ![Checkbox](../../images/checkboxiOS.png "Checkbox")
 
-## Описание
-Элемент на форме, который вызывает backdrop со списком значений для выбора
+<strong>Дизайн на Android</strong>
 
-| Поле  | Необходимые  | Описание
-|---|:---:|---|
-| id | true | Уникальный идентификатор формы  |
-| type  | true |  Тип элемента |
-| title  | false |  Заголовок элемента |
-| placeholder  | true |  Подсказка пользователю |
-| Checkbox  | true |  Описание и настройки формы, которую необходимо открыть, по нажатию на компонент |
-| Checkbox.options  | true |  Объект опций каталога |
-| Checkbox.options.title  | true |  Заголовок используется для компонента Checkbox, что бы установить текст в шапке формы |
-| options.search_enabled  | false |  Флаг для отображения компонента поиска по списку значений каталога, по умолчанию false |
-| Checkbox.items  | true |  Массив элементов списка, ниже представлен минимальный набор данных необходимый для построения элемента списка |
-| Checkbox.items[n].id  | true |  Уникальный идентификатор элемента |
-| Checkbox.items[n].title  | true |  Заголовок элемента(Основной текст) |
-| Checkbox.items[n].description  | false |  Описание элемента |
-| file_metadata  | false |  Информация о файле |
-| file_type  | true |  Тип файла |
-| file_id  | true |   Уникальный идентификатор файла |
-| file_name  | true |  Имя файла |
-| validations_rules  | false |  Правила валидации поля |
-| default_value  | false |  Предустановленное значение, любое из Checkbox.items[n] |
+![Checkbox](../../images/CheckboxAndroid.png "Checkbox")
+
+## Описание
+<p>Компонент для выбора пользователем указанного значения. Может использоваться самостоятельно с подписью, так и без подписи в составе наборов компонент.
+</p>
+
+
+
+|№ | Поле  | Необходимые  | Описание
+|---|---|:---:|---|
+|1| id | true | Уникальный идентификатор формы  |
+|2| type  | true |  Тип элемента |
+|3| title  | false |  Заголовок элемента |
+|4| default_state  | true |  сheckbox с предвыборным состоянием, содержит в себе одно из значений (true/false). Если ботосоздатель не указал default_state, то нужно проставлять false |
+|5| options  | true |  Настройки компонента |
+|5.1| options.text_size  | false |  Размер вводимого текста, по умолчанию H3 |
+|5.2| options.text_style | false |  Стиль вводимого текста, по умолчанию normal |
+|5.3| options.text_style  | false |  Цвет вводимого текста, по умолчанию #000000 |
+|6| validations_rules  | true |  Правила валидации |
+|6.1| validations_rules[n].type  | true |  Флаг обязательности поля (<strong>только required</strong>) |
+|6.2| validations_rules[n].value   | true |  Значение обязательности поля. Если пришел пустой объект, то умолчанию ставим false |
+|6.3| validations_rules[n].error  | true |   Текст ошибки, которое выводится пользователю, если сработало правило валидации |
 
 ## Пример
 ```
 {
-  "id": "Checkbox_id",
-  "type": "Checkbox",
-  "title": "Title",
-  "placeholder": "placeholder",
-  "default_value": {},
-  "validations_rules": [],
-  "Checkbox": {
-    "options": {
-      "title": "title",
-      "search_enabled": false
-    },
-    "items": [
-      {
-        "id": "",
-        "title": "",
-        "description": "",
-        "file_metadata": {
-          "file_type": "image",
-          "file_id": "fileId",
-          "filename": "fileName"
-        }
-      }
-    ]
+  "id": "checkbox",
+  "type": "checkbox",
+  "title": "title",
+  "default_state": true,
+  "options": {
+      "text_size": "H3",
+      "text_color": "#000000",
+      "text_style": "bold"
   }
+  "validations_rules": [{
+      "type": "required",
+      "value": true,
+      "error": "Необходимо выбрать одно значение"
+  }]
 }
 ```
