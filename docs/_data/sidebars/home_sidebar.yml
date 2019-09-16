@@ -11,6 +11,9 @@ entries:
     - title: Checkbox
       url: /Checkbox.html
       output: web
+    - title: Counter
+      url: /Counter.html
+      output: web
   - title: Релизы
     output: web
     folderitems:
