@@ -7,7 +7,7 @@ import kz.btsd.messenger.bot.domain.ValidationRules
 
 data class Radiogroup(
         override val id: String,
-        override val type: String,
+        override val type: String = "radiogroup",
         @JsonInclude(JsonInclude.Include.NON_NULL)
         var title: String? = null,
         var items: MutableList<RadioItem>? = null,

@@ -14,14 +14,18 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo
         JsonSubTypes.Type(value = PhonePrivateData::class, name = "phone_number"),
         JsonSubTypes.Type(value = GeoPrivateData::class, name = "geo")
 )
-interface PrivateData
+interface PrivateData {
+    val type: String
+}
 
 data class PhonePrivateData(
+        override val type: String = "phone_number",
         @JsonProperty("value")
         val value: Phone?
 ) : PrivateData
 
 data class GeoPrivateData(
+        override val type: String = "geo",
         @JsonProperty("value")
         val value: Geo?
 ) : PrivateData
@@ -32,6 +36,7 @@ data class Phone(
         @JsonProperty("metadata")
         val metadata: String?
 )
+
 data class Geo(
         @JsonProperty("latitude")
         val latitude: Double?,

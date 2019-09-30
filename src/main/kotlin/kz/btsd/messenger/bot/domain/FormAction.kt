@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 data class FormAction(
         var action: String,
         @JsonProperty("data_template")
-        var dataTemplate: String?,
+        var dataTemplate: String? = null,
         @JsonProperty("hidden_metadata")
-        var hiddenMetadata: String?
+        var hiddenMetadata: String? = null
 )

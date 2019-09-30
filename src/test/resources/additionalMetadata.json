@@ -1,0 +1,35 @@
+{
+  "data_template_result": "42877 KZT в USD",
+  "private_data": {
+    "type": "phone_number",
+    "value": {
+      "phone_number": "+77711234567",
+      "metadata": "XXX"
+    }
+  },
+  "form": {
+    "content": [
+      {
+        "id": "from",
+        "type": "catalog",
+        "value": "KZT"
+      },
+      {
+        "id": "to",
+        "type": "catalog",
+        "value": "USD"
+      },
+      {
+        "id": "sum",
+        "type": "input",
+        "value": "42877"
+      }
+    ],
+    "id": "form_1"
+  },
+  "hidden_metadata": "{\"some_hidden_metadata\":\"as string\"}",
+  "logging_metadata": {
+    "type": "open_peer",
+    "timestamp": 1563970569067
+  }
+}

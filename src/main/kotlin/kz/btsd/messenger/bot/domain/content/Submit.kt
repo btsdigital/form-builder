@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class Submit(
         override val id: String,
-        override val type: String,
+        override val type: String = "submit",
         var title: String,
         @JsonProperty("form_action")
         var formAction: FormAction,

@@ -33,7 +33,7 @@ interface ContentSubmittedForm {
 }
 
 data class CheckboxContentSubmittedForm(
-        override val type: String,
+        override val type: String = "checkbox",
         override val id: String,
         @JsonProperty("value")
         val value: Boolean
@@ -49,10 +49,10 @@ OR
 ] - если выбрано: массив объектов "string"
 */
 data class MediaPickerContentSubmittedForm(
-        override val type: String,
+        override val type: String = "media_picker",
         override val id: String,
         @JsonProperty("value")
-        val value: List<String>?
+        val value: List<String>? = null
 ) : ContentSubmittedForm
 
 /*
@@ -61,14 +61,14 @@ OR
 "value": null - если значение не выбрано
 */
 data class DatePickerContentSubmittedForm(
-        override val type: String,
+        override val type: String = "date_picker",
         override val id: String,
         @JsonProperty("value")
-        val value: String?
+        val value: String? = null
 ) : ContentSubmittedForm
 
 data class SwitchContentSubmittedForm(
-        override val type: String,
+        override val type: String = "switch",
         override val id: String,
         @JsonProperty("value")
         val value: Boolean
@@ -80,10 +80,10 @@ OR
 "value": null - если никакой текст не введен
 */
 data class TextAreaContentSubmittedForm(
-        override val type: String,
+        override val type: String = "text_area",
         override val id: String,
         @JsonProperty("value")
-        val value: String?
+        val value: String? = null
 ) : ContentSubmittedForm
 
 
@@ -93,10 +93,10 @@ OR
 "value": null - если значение не выбрано
 */
 data class CatalogContentSubmittedForm(
-        override val type: String,
+        override val type: String = "catalog",
         override val id: String,
         @JsonProperty("value")
-        val value: String?
+        val value: String? = null
 ) : ContentSubmittedForm
 
 
@@ -106,10 +106,10 @@ OR
 "value": null - если никакой текст не введен
 */
 data class InputContentSubmittedForm(
-        override val type: String,
+        override val type: String = "input",
         override val id: String,
         @JsonProperty("value")
-        val value: String?
+        val value: String? = null
 ) : ContentSubmittedForm
 
 /*
@@ -118,10 +118,10 @@ OR
 "value": null - если значение не выбрано
 */
 data class RadiogroupContentSubmittedForm(
-        override val type: String,
+        override val type: String = "radiogroup",
         override val id: String,
         @JsonProperty("value")
-        val value: String?
+        val value: String? = null
 ) : ContentSubmittedForm
 
 /*
@@ -129,7 +129,7 @@ data class RadiogroupContentSubmittedForm(
  ( что либо всегда выбрано т.к. иначе компонент не отобразиться у пользователя )
 */
 data class SliderContentSubmittedForm(
-        override val type: String,
+        override val type: String = "slider",
         override val id: String,
         @JsonProperty("value")
         val value: String

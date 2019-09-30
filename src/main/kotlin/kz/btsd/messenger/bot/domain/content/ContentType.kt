@@ -5,7 +5,7 @@ import kz.btsd.messenger.bot.domain.FormAction
 
 class ContentType(
         override val id: String,
-        override val type: String,
+        override val type: String = "content_type",
         var title: String,
         var alignment: String? = null,
         @JsonProperty("form_action")
