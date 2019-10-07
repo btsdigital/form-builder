@@ -12,7 +12,7 @@ exclude:
   - .idea/
   - .gitignore
 feedback_subject_line: form-builder documentation
-feedback_email: liudmila.novikova@btsdigital.kz
+feedback_email: tair.sabirgaliev@gmail.com
 
 highlighter: rouge
 markdown: kramdown
