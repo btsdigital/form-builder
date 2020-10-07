@@ -5,7 +5,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class Switch(
         override val id: String,
-        override val type: String,
+        override val type: String = "switch",
         var title: String? = null,
         @JsonProperty("default_state")
         var defaultState: Boolean? = true,

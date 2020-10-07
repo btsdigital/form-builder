@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class Button(
         override val id: String,
-        override val type: String,
+        override val type: String = "button",
         var title: String? = null,
         @JsonProperty("button_type")
         var buttonType: String? = null,

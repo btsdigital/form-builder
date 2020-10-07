@@ -5,7 +5,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class ItemInfo(
         override val id: String,
-        override val type: String,
+        override val type: String = "item_info",
         @JsonProperty("photo_url")
         var photoUrl: String? = null,
         var title: String,

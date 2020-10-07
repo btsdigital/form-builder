@@ -7,7 +7,7 @@ import kz.btsd.messenger.bot.domain.card.CardContent
 
 data class Image(
         override val id: String? = null,
-        override val type: String,
+        override val type: String = "image",
         @JsonProperty("photo_url")
         var photoUrl: String? = null,
         @JsonProperty("file_metadata")

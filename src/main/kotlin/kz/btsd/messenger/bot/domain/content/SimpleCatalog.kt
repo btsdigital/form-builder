@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class SimpleCatalog(
         override val id: String,
-        override val type: String,
+        override val type: String = "simple_catalog",
         var options: Options? = null,
         var items: MutableList<Item>
 ) : Content {

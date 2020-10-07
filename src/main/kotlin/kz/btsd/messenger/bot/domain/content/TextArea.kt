@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.ValidationRules
 
 class TextArea (
         override val id: String,
-        override val type: String,
+        override val type: String = "text_area",
         var title: String? = null,
         var text: String? = null,
         var placeholder: String? = null,

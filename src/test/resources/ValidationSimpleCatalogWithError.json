@@ -1,0 +1,204 @@
+{
+  "form": {
+    "id": "simple_catalog_form",
+    "header": {
+      "type": "toolbar",
+      "title": "Simple catalog sample",
+      "options": {
+        "closeable": true
+      }
+    },
+    "content": [
+      {
+        "id": "text_22",
+        "type": "text",
+        "title": "Simple catalog with divider and removing icon if it's needed",
+        "options": {
+          "text_size": "H1",
+          "text_color": "#000000"
+        }
+      },
+      {
+        "id": "simple_catalog",
+        "type": "simple_catalog",
+        "options": {
+          "type": "list",
+          "item_type": "item_info",
+          "show_divider": true,
+          "item_right_icon_resource": "ic_right_arrow",
+          "search_enabled": true
+        },
+        "items": [
+          {
+            "id": "item_1_1",
+            "title": "One line title with icon"
+          },
+          {
+            "id": "item_1_2",
+            "title": "One line title with icon",
+            "subtitle": "One line subtitle with icon"
+          },
+          {
+            "id": "item_1_3",
+            "title": "More than one line title with icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "subtitle": "More than one line subtitle with icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+          },
+          {
+            "id": "item_2_1",
+            "title": "One line title without icon",
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_2_2",
+            "title": "One line title without icon",
+            "subtitle": "One line subtitle without icon",
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_2_3",
+            "title": "More than one line title without icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "subtitle": "More than one line subtitle without icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_3_1",
+            "title": "One line title with icon and photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            }
+          },
+          {
+            "id": "item_3_2",
+            "title": "One line title with icon and photo",
+            "subtitle": "One line subtitle with icon and photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            }
+          },
+          {
+            "id": "item_3_3",
+            "title": "More than one line title with icon and photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "subtitle": "More than one line subtitle with icon and photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            }
+          },
+          {
+            "id": "item_4_1",
+            "title": "One line title without icon with photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            },
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_4_2",
+            "title": "One line title without icon with photo",
+            "subtitle": "One line subtitle with icon and photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            },
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_4_3",
+            "title": "More than one line title without icon with photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "subtitle": "More than one line subtitle without icon with photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            },
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_5_1",
+            "subtitle": "One line subtitle with icon"
+          },
+          {
+            "id": "item_5_2",
+            "subtitle": "One line subtitle without icon",
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_5_3",
+            "subtitle": "More than one line subtitle with icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio."
+          },
+          {
+            "id": "item_5_4",
+            "subtitle": "More than one line subtitle without icon:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_5_5",
+            "subtitle": "One line subtitle with icon and photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            }
+          },
+          {
+            "id": "item_5_6",
+            "subtitle": "More than one line subtitle with icon and photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            }
+          },
+          {
+            "id": "item_5_5",
+            "subtitle": "One line subtitle without icon with photo",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            },
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          },
+          {
+            "id": "item_5_6",
+            "subtitle": "More than one line subtitle without icon with photo:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+            "file_metadata": {
+              "file_type": "image",
+              "file_id": "fc2e0345-38c9-11e9-ae2a-e2e99b595f3e",
+              "filename": "selected_69dba7ef-be13-49ca-af53-e012e7f09444"
+            },
+            "options": {
+              "item_right_icon_resource": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

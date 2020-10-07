@@ -7,7 +7,7 @@ import kz.btsd.messenger.bot.domain.card.CardContent
 
 data class Text(
         override val id: String? = null,
-        override val type: String,
+        override val type: String = "text",
         var title: String,
         var options: Options? = null,
         @JsonProperty("form_action")

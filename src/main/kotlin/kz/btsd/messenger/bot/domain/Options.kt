@@ -59,5 +59,9 @@ data class Options(
         @JsonProperty("min_date")
         var minDate: String? = null,
         @JsonProperty("max_date")
-        var maxDate: String? = null
-        )
+        var maxDate: String? = null,
+        @JsonProperty("title_lines_count")
+        var titleLinesCount: Int? = null,
+        @JsonProperty("subtitle_lines_count")
+        var subtitleLinesCount: Int? = null
+)

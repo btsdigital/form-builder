@@ -4,7 +4,7 @@ import kz.btsd.messenger.bot.domain.Options
 
 data class LabeledText (
         override val id: String,
-        override val type: String,
+        override val type: String = "labeled_text",
         var label: String,
         var title: String,
         var options: Options? = null

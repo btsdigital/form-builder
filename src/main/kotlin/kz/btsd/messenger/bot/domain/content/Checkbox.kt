@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.ValidationRules
 
 data class Checkbox(
         override val id: String,
-        override val type: String,
+        override val type: String = "checkbox",
         var title: String,
         @JsonProperty("default_state")
         var defaultState: Boolean? = true,

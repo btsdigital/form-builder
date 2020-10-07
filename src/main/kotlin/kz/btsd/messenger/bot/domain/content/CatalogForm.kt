@@ -6,7 +6,7 @@ import kz.btsd.messenger.bot.domain.ValidationRules
 
 data class CatalogForm(
         override val id: String,
-        override val type: String,
+        override val type: String = "catalog",
         var title: String? = null,
         var placeholder: String? = null,
         @JsonProperty("default_value")
@@ -30,7 +30,7 @@ data class Item(
         var photoUrl: String? = null,
         var description: String? = null,
         @JsonProperty("file_metadata")
-        var fileMetaData: FileMetaData?
+        var fileMetaData: FileMetaData? = null
 )
 
 data class Catalog(
